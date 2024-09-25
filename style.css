@@ -1,0 +1,52 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Calculator container */
+#calc {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Calculator content */
+#content {
+    text-align: center;
+}
+
+/* Output area */
+#output {
+    margin-bottom: 10px;
+}
+
+#output input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* Button styles */
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn input {
+    width: 25%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: #e0e0e0;
+}
